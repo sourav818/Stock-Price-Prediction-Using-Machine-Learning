@@ -1,105 +1,71 @@
-<<<<<<< HEAD
-# live (deploy on Streamlit Community io) : 
+# Live Demo (Streamlit)
 https://cbam23fayqugvkbwnwoysg.streamlit.app/
 
 # Stock Price Prediction Using Machine Learning
 
-This repository contains a project for predicting stock prices of multinational companies (MNCs) for the next 30 days using machine learning techniques. The model is trained on historical stock price data and utilizes a user-friendly interface built with Streamlit.
-
----
-
-## Table of Contents
-1. [Project Overview](#project-overview)
-2. [Features](#features)
-3. [Technologies Used](#technologies-used)
-4. [Setup and Installation](#setup-and-installation)
-5. [Project Structure](#project-structure)
-6. [How to Use](#how-to-use)
-7. [Dataset](#dataset)
-8. [Future Scope](#future-scope)
-9. [License](#license)
+This project predicts stock prices of multinational companies (MNCs) for the next 30 days using machine learning techniques. The model is trained on historical stock price data and displayed using a Streamlit web app.
 
 ---
 
 ## Project Overview
 
-The goal of this project is to provide insights into stock price trends and predict the future prices of stocks for the next 30 days. The model uses Python-based machine learning frameworks and displays the results in an interactive Streamlit interface. 
+The goal of this project is to analyze stock price trends and forecast future prices using machine learning.
 
-The project comprises:
-- **Data Preprocessing**: Cleaning and preparing historical stock price data.
-- **Model Training**: Training a machine learning model using TensorFlow.
-- **Frontend Interface**: Displaying predictions and data visualization in a web app using Streamlit.
+### Components:
+- Data Preprocessing  
+- Model Training (TensorFlow)  
+- Interactive Streamlit Interface  
 
 ---
 
 ## Features
 
-- Predict stock prices for the next 30 days.
-- Visualize historical stock price trends.
-- User-friendly web interface with Streamlit.
-- Interactive and real-time prediction visualization.
+- Predict stock prices for the next 30 days  
+- Visualize historical stock trends  
+- Interactive web interface  
+- Real-time forecasting  
 
 ---
 
 ## Technologies Used
 
-The project utilizes the following technologies and libraries:
-- **Python**: Programming language for backend and model development.
-- **Streamlit**: Web framework for frontend.
-- **Pandas**: Data manipulation and analysis.
-- **NumPy**: Numerical computations.
-- **Scikit-learn**: Machine learning utilities.
-- **TensorFlow**: Deep learning framework for model training.
-- **Matplotlib**: Data visualization.
+- Python  
+- Streamlit  
+- Pandas  
+- NumPy  
+- Scikit-learn  
+- TensorFlow  
+- Matplotlib  
 
 ---
 
-## Setup and Installation
+## Setup & Run
 
-To run this project locally, follow the steps below:
-
-1. **Clone the Repository**:
-    ```bash
-    git clone https://github.com/your-username/Stock-Price-Prediction-Using-Machine-Learning.git
-    cd Stock-Price-Prediction-Using-Machine-Learning
-    ```
-
-2. **Create a Virtual Environment**:
-    ```bash
-    python -m venv env
-    source env/bin/activate   # On Windows: env\Scripts\activate
-    ```
-
-3. **Install Dependencies**:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-4. **Run the Streamlit Application**:
-    ```bash
-    streamlit run main.py
-    ```
-
----
-
-## Project Structure
-
-```plaintext
+```bash
+pip install -r requirements.txt
+python -m streamlit run main.py
+Project Structure
 Stock-Price-Prediction-Using-Machine-Learning/
 │
-├── dataset.csv               # Dataset used for training
-│
-├── model.py                      # Model training script
-├── main.py                       # Streamlit app script
-├── requirements.txt              # Python dependencies
-├── README.md                     # Project documentation
-└── .gitignore                    # Ignored files for Git
+├── stock_data.csv
+├── model.py
+├── main.py
+├── requirements.txt
+└── README.md
 
-```
-## Abhishek Ashok Sangule
-Email: abhisheksangule6@gmail.com
-LinkedIn: https://www.linkedin.com/in/abhishek-sangule-07b202319/
-GitHub: AbhishekRDJ
-=======
-# Stock-Price-Prediction-Using-Machine-Learning
->>>>>>> 2be49ae71998b243bf5906934cd94ca1f3afe39b
+Author
+
+Sourav Paul
+GitHub: https://github.com/sourav818
+
+LinkedIn: https://www.linkedin.com/in/sourav-paul-5b19722b6/
+Email: souravpaul043@gmail.com
+
+
+---
+
+### Step 3: Save the File
+
+---
+
+### Step 4: Commit & Push
