@@ -1,5 +1,5 @@
 # Live Demo (Streamlit)
-https://cbam23fayqugvkbwnwoysg.streamlit.app/
+https://stock-price-prediction-using-machine-learning-7wfupk9n7l6vhjgu.streamlit.app/
 
 # Stock Price Prediction Using Machine Learning
 
@@ -69,3 +69,4 @@ Email: souravpaul043@gmail.com
 ---
 
 ### Step 4: Commit & Push
+
